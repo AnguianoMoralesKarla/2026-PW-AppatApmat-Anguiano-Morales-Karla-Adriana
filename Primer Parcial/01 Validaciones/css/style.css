@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    color: #1f2937;
+    background-color: #f9fafb;
+}
+
+header {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header a {
+    color: #ffffff;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+th {
+    background-color: #0f172a;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #0f172a;
+    font-weight: bold;
+}
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f6fa;
+    color: #1f2937;
+    padding: 1.5rem;
+}
+
+/* Header */
+header {
+    background-color: #0f172a;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover {
+    text-decoration: underline;
+}
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: auto;
+}
+/* Tarjeta de información del taller */
+.info-taller {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+.info-taller h1 {
+    margin-bottom: 1rem;
+    color: #0f172a;
+}
+.info-taller p {
+    margin-bottom: 0.5rem;
+}
+.info-taller a {
+    color: #0f172a;
+    font-weight: bold;
+}
+/* Bitácora */
+.bitacora {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.bitacora h2 {
+    margin-bottom: 1rem;
+    color: #0f172a;
+}
+.bitacora ul {
+    list-style: none;
+}
+.bitacora li {
+    background-color: #f2f2f2;
+    padding: 0.75rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+/* Catalogo de Talleres */
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.tarjeta {
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+}
+.tarjeta h2 {
+    margin-top:0;
+    font-size: 1.1rem;
+}
+.tarjeta a {
+    color:#0f172a;
+    text-decoration: none;
+}
+.tarjeta a:hover {
+    text-decoration: underline;
+}
+/* 1. Regla general para el formulario de registro */
+form {
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffff;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+/* 2. Regla para los input del registro */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+/* 3. Regla para el button del registro */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+/* 4. Regla para el hover del botón de registro */
+button:hover {
+    background-color: #555;
+}
+/* 5. Regla para cuando falle el registro */
+.error {
+    display: block;
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/* 6. Regla para cuando un input sea inválido */
+input:invalid {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+/* 7. Regla para cuando el registro sea exitoso */
+input:valid {
+    border: 2px solid green;
+    background-color: #e6ffe6;
+}
+```
